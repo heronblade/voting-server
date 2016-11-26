@@ -4,7 +4,7 @@ import { describe } from 'mocha'
 import { List, Map } from 'immutable'
 
 describe('immutability', () => {
-    describe('A number', () => {
+    describe('A Number', () => {
 
         function increment(currentState) {
             return currentState + 1
