@@ -39,8 +39,8 @@ export function next(state) {
  * @param state
  * @param entry
  */
-export function vote(state, entry) {
-    return state.updateIn(
+export function vote(voteState, entry) {
+    return voteState.updateIn(
         ['tally', entry],
         0,
         tally => tally + 1
